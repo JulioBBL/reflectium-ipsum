@@ -1,5 +1,4 @@
-/// <#Description#>
-class reflectium_ipsum {
+class ReflectionGenerator {
     /// Represents the percentile chance of a "ok" response.
     static var CHANCE_OK_RESPONSE: Int = 10
     
@@ -32,10 +31,10 @@ class reflectium_ipsum {
     public static func generatiumReflectium() -> String {
         let magicNumber = Int.random(in: 1...100)
         
-        if magicNumber <= reflectium_ipsum.CHANCE_OK_RESPONSE {
-            return reflectium_ipsum.OK_RESPONSES.randomElement()!
+        if magicNumber <= ReflectionGenerator.CHANCE_OK_RESPONSE {
+            return ReflectionGenerator.OK_RESPONSES.randomElement()!
         } else {
-            return reflectium_ipsum.PRHASES.randomElement()!
+            return ReflectionGenerator.PRHASES.randomElement()!
         }
     }
 }
