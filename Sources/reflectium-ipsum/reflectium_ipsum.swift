@@ -1,4 +1,4 @@
-class ReflectionGenerator {
+public class ReflectionGenerator {
     /// Represents the percentile chance of a "ok" response.
     static var CHANCE_OK_RESPONSE: Int = 10
     
