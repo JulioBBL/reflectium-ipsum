@@ -1,6 +1,6 @@
 public class ReflectionGenerator {
     /// Represents the percentile chance of a "ok" response.
-    static var CHANCE_OK_RESPONSE: Int = 10
+    public static var CHANCE_OK_RESPONSE: Int = 10
     
     private static let PHRASES: [String] = [
         "Excelente! Continue assim.",
