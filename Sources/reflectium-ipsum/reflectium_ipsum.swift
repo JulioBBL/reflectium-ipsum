@@ -2,7 +2,7 @@ public class ReflectionGenerator {
     /// Represents the percentile chance of a "ok" response.
     static var CHANCE_OK_RESPONSE: Int = 10
     
-    private static let PRHASES: [String] = [
+    private static let PHRASES: [String] = [
         "Excelente! Continue assim.",
         "Normal encontrar dificuldades no meio do caminho, mas podemos sempre ajustar o planejamento nestes casos.",
         "Não se preocupe, você pode ajustar a entrega para amanhã pensando nisso.",
@@ -77,7 +77,7 @@ public class ReflectionGenerator {
         if magicNumber <= ReflectionGenerator.CHANCE_OK_RESPONSE {
             return ReflectionGenerator.OK_RESPONSES.randomElement()!
         } else {
-            return ReflectionGenerator.PRHASES.randomElement()!
+            return ReflectionGenerator.PHRASES.randomElement()!
         }
     }
 }
